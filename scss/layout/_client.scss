@@ -1,7 +1,7 @@
 .client {
-    display: flex;
+    /*display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;*/
     gap: 30px;
 
     &__icon {
@@ -9,10 +9,10 @@
         }
 
     &__link {
-    display: flex;
+    /*display: flex;
     align-items: center;
-    justify-content: center;
-    width: 170px;
+    justify-content: center;*/
+    max-width: 170px;
     height: 92px;
 
     border-radius: 4px;

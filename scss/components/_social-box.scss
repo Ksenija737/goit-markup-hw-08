@@ -1,13 +1,13 @@
 .social-box {
-    display: flex;
+    /*display: flex;*/
     padding: 16px 32px 0px 32px;
     gap: 10px;
 
     &__link {
-            display: flex;
+            /*display: flex;
             align-items: center;
-            justify-content: center;
-            width: 44px;
+            justify-content: center;*/
+            max-width: 44px;
             height: 44px;
             background-color: var(--white-color);
             fill: var(--icon-color);

@@ -1,5 +1,5 @@
 .contact {
-    display: flex;
+    /*display: flex;*/
     margin-left: auto;
 
 
@@ -9,7 +9,7 @@
 
 
     &__link {
-        display: flex;
+        /*display: flex;*/
         padding-top: 32px;
         padding-bottom: 32px;
         align-items: center;
@@ -31,6 +31,6 @@
 
     &__icon {
         fill: currentColor;
-        margin-right: 10px;
+        *margin-right: 10px;
     }
 }
