@@ -82,8 +82,6 @@
     
     &__input {
             appearance: none;
-            
-           
         }
     
     &__icon {
@@ -121,13 +119,13 @@
 
 
 .submit {
-    /*display: flex;*/
+    display: flex;
     margin: 0 auto;
     padding: 10px 52px;
     align-items: center;
     justify-content: center;
     text-align: center;
-    max-width: 200px;
+    width: 200px;
     height: 50px;
 
     font-weight: 700;

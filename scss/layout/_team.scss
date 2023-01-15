@@ -1,5 +1,5 @@
 .team {
-    
+    display: flex;
 
     &__item+.team__item {
         margin-left: 30px;
