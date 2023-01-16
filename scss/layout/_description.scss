@@ -1,16 +1,16 @@
 .description {
-    display: flex;
+   // display: flex;
     
         &__item {
             position: relative;
         }
-        &__item:not(:last-child) {
-            margin-right: 30px;
-        }
+        //&__item:not(:last-child) {
+          //  margin-right: 30px;
+        //}
         &__text {
             position: absolute;
             bottom: 0;
-            width: 100%;
+            max-width: 100%;
             padding-top: 27px;
             padding-bottom: 27px;
     

@@ -1,10 +1,10 @@
 .feature {
-    display: flex;
+   // display: flex;
     padding: 0;
 
     &__item {
         flex-basis: 270px;
-        margin-right: 30px;
+        //margin-right: 30px;
     }
 
     &__item:last-child {

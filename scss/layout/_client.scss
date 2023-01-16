@@ -1,7 +1,7 @@
 .client {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   // display: flex;
+   // align-items: center;
+    //justify-content: center;
     gap: 30px;
 
     &__icon {
@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 170px;
+    max-width: 170px;
     height: 92px;
 
     border-radius: 4px;

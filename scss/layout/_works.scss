@@ -1,13 +1,13 @@
-.works {
-    display: flex;
-    flex-wrap: wrap;
-}
+//.works {
+   // display: flex;
+   // flex-wrap: wrap;
+//}
 
 .work {
-    display: flex;
-    justify-content: column;
-    width: 370px;
-    margin-right: 30px;
+   // display: flex;
+    //justify-content: column;
+    max-width: 370px;
+   // margin-right: 30px;
     margin-bottom: 30px;
 
     &:nth-child(3n) {
