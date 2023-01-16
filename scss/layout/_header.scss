@@ -12,9 +12,7 @@
    //     align-items: center;
    // }
 
-   // &__menu {
-   //     display: flex;
-   // }
+   
 
     &__item {
     position: relative;
@@ -36,6 +34,8 @@
         letter-spacing: 0.02em;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
+        
+
         &:hover,
         &:focus {
         color: var(--accent-color);
@@ -53,13 +53,24 @@
                 background: var(--accent-color);
                 border-radius: 2px;
         }
+
+       
     }
 
-    
+         &__burger {
+             display: none;
 
-    
+            @media (max-width: 768px){
+                display: block;
+            }
+         }
 
-    
+        &__menu {
+            display: flex;
 
-    
+            @media (max-width: 768px) {
+                    display: none;
+                }
+
+         }
 }

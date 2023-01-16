@@ -1,11 +1,15 @@
 .contact {
-    //display: flex;
+   // display: flex;
     margin-left: auto;
+    
+    @media (max-width: 768px) {
+                    display: none;
+                }
 
 
-    &__item--right {
-        margin-left: 40px;
-    }
+   // &__item--right {
+    //    margin-left: 40px;
+    //}
 
 
     &__link {

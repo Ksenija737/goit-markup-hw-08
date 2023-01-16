@@ -27,10 +27,14 @@
     }
 
     &__box-icon {
-        padding: 25px 100px;
+        //padding: 25px 100px;
+        display: flex;
+        align-items: center;
+        height: 120px;
+        
         margin-bottom: 30px;
         background: var(--time-bg-color);
         border-radius: 4px;
     }
-
+    
 }
