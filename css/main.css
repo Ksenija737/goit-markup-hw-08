@@ -527,7 +527,7 @@ p {
 .description__text {
   position: absolute;
   bottom: 0;
-  max-width: 100%;
+  width: 100%;
   padding-top: 27px;
   padding-bottom: 27px;
   font-weight: 700;
