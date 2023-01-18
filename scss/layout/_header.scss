@@ -2,6 +2,8 @@
 .header {
     border-bottom: 1px solid var(--border-head-color);
 
+    &__field {
+        height: 60px;}
    // &__field {
    //     display: flex;
    //     align-items: center;
@@ -61,24 +63,16 @@
          &__burger {
              display: inline-flex;
              margin: 0;
-             padding: 0;
+             padding-top: 10px;
+             padding-bottom: 10px;
              background-color: transparent;
              border: none;
 
-
+                &:hover{
+                    fill: var(--accent-color);
+                }
              
-            // & .icon-crose{
-            //     display: none;
-            // }
-
-
-            // & is-open .icon-crose {
-            //     display: block;
-            // }
             
-            //  & is-open .icon-menu {
-            //      display: none;
-            // }
 
    @media (min-width: 768px) {
        display: none;
@@ -86,12 +80,17 @@
    }
          }
 
+
+        
+            
+           
         &__menu {
             display: flex;
 
-            @media (max-width: 768px) {
+            @media (max-width: 767px) {
                     display: none;
                 }
 
          }
 }
+

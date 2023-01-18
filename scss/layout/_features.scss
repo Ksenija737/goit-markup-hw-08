@@ -43,7 +43,7 @@
         text-align: center;
             }
             
-        }
+        
     
 
     &__text {
@@ -57,8 +57,8 @@
         @media (min-width: 678px) {
                 margin-bottom: 0;
        
-    }
-}
+    }}
+
     &__box-icon {
         display: flex;
         align-items: center;
@@ -66,6 +66,5 @@
         
         margin-bottom: 30px;
         background: var(--time-bg-color);
-        border-radius: 4px;
+        border-radius: 4px;}
     }
-    
