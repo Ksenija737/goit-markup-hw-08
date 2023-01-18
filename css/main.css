@@ -380,6 +380,9 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .mobile-menu__btn-close {
@@ -396,6 +399,7 @@ p {
 
 .mobile-menu__list {
   margin-top: 48px;
+  margin-bottom: auto;
 }
 
 .mobile-menu__item:not(:last-child) {
@@ -434,8 +438,7 @@ p {
   font-size: 24px;
   line-height: 1.16;
   letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--text-color);
+  color: var(--primary-text-color);
 }
 
 .menu-socials {
