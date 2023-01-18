@@ -1,8 +1,16 @@
 .client {
-   // display: flex;
-   // align-items: center;
-    //justify-content: center;
+
+
+
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   
     gap: 30px;
+
+// align-items: center;
+    
+
 
     &__icon {
             fill: currentColor;

@@ -1,5 +1,17 @@
+.description-section{
+      padding-top: 0;
+    display: none;
+
+    @media (min-width: 1199px) {
+        display: flex;
+
+    }
+}
+
+
 .description {
-   // display: flex;
+    display: flex;
+    gap: 30px;
     
         &__item {
             position: relative;
