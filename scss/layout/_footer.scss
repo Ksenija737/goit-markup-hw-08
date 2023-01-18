@@ -27,28 +27,19 @@ footer {
     padding-top: 28px;
 
     &-box {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+        text-align: center;
 
             @media (min-width:1200px) {
-                flex-wrap: nowrap;
-                align-items: normal;
+                text-align: start;
             }
         }
     
         &__list {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            text-align: center;
 
             @media (min-width:1200px) {
-                    flex-wrap: nowrap;
-                    align-items: normal;
+                text-align: start;
+            
                 }
         }
 
