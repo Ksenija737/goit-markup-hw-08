@@ -112,15 +112,53 @@
             <h2 class="section__title">Чим ми займаємося</h2>
             <ul class="description list">
                 <li class="description__item">
-                    <img class="img" src="./images/img1.jpg" alt="Людина працює за комп'ютером" width="370" height="294">
+                    <picture>
+                        <source srcset="
+                                        ./images/descr_img1@1x.webp 1x,
+                                        ./images/descr_img1@2x.webp 2x" type="image/webp" media="(min-width:1200px)" />
+                        <source srcset="
+                                            ./images/descr_img1@1x.jpg 1x,
+                                            ./images/descr_img1@2x.jpg 2x" type="image/jpg" media="(min-width:1200px)" />
+                    <img class="description__img img" 
+                    src="./images/descr_img1@1x.jpg"
+                    alt="Людина працює за комп'ютером" 
+                    width="
+                    height="294"/>
+                    </picture>
                     <p class="description__text">Десктопні додатки</p>
                 </li>
                 <li class="description__item">
-                    <img class="img" src="./images/img2.jpg" alt="Людина із мобільним у руках за комп'ютером" width="370" height="294">
+                    <picture>
+                    <picture>
+                        <source srcset="
+                                        ./images/descr_img2@1x.webp 1x,
+                                        ./images/descr_img2@2x.webp 2x" type="image/webp" media="(min-width:1200px)" />
+                        <source srcset="
+                                            ./images/descr_img2@1x.jpg 1x,
+                                            ./images/descr_img2@2x.jpg 2x" type="image/jpg" media="(min-width:1200px)" />
+                    <img class="description__img img" 
+                    src="./images/descr_img2@1x.jpg" 
+                    alt="Людина із мобільним у руках за комп'ютером" 
+                    width="370" 
+                    height="294"/>
+                    </picture>
                     <p class="description__text">Мобільні додатки</p>
                 </li>
                 <li class="description__item">
-                    <img class="img" src="./images/img3.jpg" alt="Людина вибирає на планшеті" width="370" height="294">
+                    <picture>
+                    <picture>
+                        <source srcset="
+                                        ./images/descr_img3@1x.webp 1x,
+                                        ./images/descr_img3@2x.webp 2x" type="image/webp" media="(min-width:1200px)" />
+                        <source srcset="
+                                            ./images/descr_img3@1x.jpg 1x,
+                                            ./images/descr_img3@2x.jpg 2x" type="image/jpg" media="(min-width:1200px)" />
+                    <img class="description__img img" 
+                    src="./images/descr_img3@1x.jpg" 
+                    alt="Людина вибирає на планшеті" 
+                    width="370" 
+                    height="294"/>
+                    </picture>
                     <p class="description__text">Дизайнерські рішення</p>
                 </li>
             </ul>
@@ -410,7 +448,7 @@
 <!--мобільне меню-->
 
 <div class="mobile-menu js-menu-container">
-    <div class="container">
+    <div class="mobile-menu__cjntainer container">
         
         <button class="mobile-menu__btn-close js-close-menu" type="button">
             <svg class="mobile-menu__button" aria-label="переключатель мобільного меню" width="40" height="40">
@@ -486,6 +524,7 @@
                 placeholder="Введіть текст"></textarea>
 
             <div class="form-fild__checkbox checkbox">
+                <div class="checkbox__thumb"
              <input class="checkbox__input" 
              type="checkbox" 
              id="checkbox" 
@@ -495,6 +534,7 @@
             </svg>
              <label class="checkbox__label" for="checkbox">Погоджуюся з розсилкою та приймаю 
                 <a class="checkbox__link" href="#">Умови договору</a></label>
+            </div>
                 <div class="checkbox__submit">
              <button class="submit" type="submit">Відправити</button>
             </div>

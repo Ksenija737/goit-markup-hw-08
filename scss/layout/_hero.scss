@@ -10,10 +10,24 @@
     background-image: linear-gradient(to right,
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
-        url(../images/img18.jpg);
+        url(../images/hero_mob_img@1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+background-image: linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/hero_mob_img@1x.jpg);
+            }
+
+
+
+            
 
     &__title {
         max-width: 696px;
