@@ -506,7 +506,6 @@ p {
 
 .mobile-menu__list {
   margin-top: 48px;
-  margin-bottom: auto;
 }
 
 .mobile-menu__item:not(:last-child) {
