@@ -3,16 +3,11 @@
    flex-wrap: wrap;
    justify-content: center;
     gap: 30px;
-// align-items: center;
 
-
-    // &__item{
-
-    //     @media (min-width: 480px) {
-    //     flex-basis: ((100% - 30px)/2);}
-
-    // }
-
+    // @media (min-width: 1200px) {
+    //     flex-wrap: nowrap;
+    //     width: 170px;
+    //     }
 
     &__icon {
             fill: currentColor;
@@ -22,7 +17,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 170px;
     height: 92px;
 
     border-radius: 4px;
@@ -43,5 +37,19 @@
 }
 
 
+.client__item {
 
+    @media (min-width: 320px) {
+        width: calc((100% - 30px)/2);
+    }
+
+    @media (min-width: 768px) {
+    width: calc((100% - 60px)/3);
+    }
+
+    @media (min-width: 1200px) {
+            width: 170px;
+}
+
+}
 

@@ -1,5 +1,4 @@
 .logo {
-   // margin-right: 93px;
 
     color: var(--accent-color);
     font-family: Raleway, sans-serif;
@@ -11,11 +10,19 @@
 
     &--dark {
             color: var(--title-text-color);
+
+        @media (min-width: 768px) {
+                        margin-right: 88px;
+                }
+        
+        @media (min-width: 768px) {
+                        margin-right: 93px;
+                }
         }
     
     &--white {
             color: var(--white-color);
-           // margin-right:0;
+
         }
 
 }
