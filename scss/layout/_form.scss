@@ -1,5 +1,5 @@
-
-
+.form-fild {
+    
 &__label {
     color: var(--primary-text-color);
     margin-bottom: 4px;
@@ -125,7 +125,7 @@
         }
     
     &__submit {
-            margin-top: 30px;
+            margin-top: 15px;
 
             @media (max-width: 494px) {
                     margin-top: 15px;
