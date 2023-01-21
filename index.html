@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
+    <!--# хедер-->
 <header class="header">
-<!--навігація-->
         <div class="header__container container">
         <div class="header__field">
         <nav class="header__nav">
@@ -55,14 +55,14 @@
         
 </header>
 <main>
-<!--герой-->
+<!--# герой-->
         <section class="hero">
             <div class="container">
                 <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
                 <button type="button" class="button hero__button" data-modal-open>Замовити послугу</button>
                 </div>
         </section>
-<!--переваги-->
+<!--# переваги-->
         <section class="section">
             <div class="container">
                 <h2 class="section__title visually-hidden" >Наші переваги</h2>
@@ -106,7 +106,7 @@
                 </ul>
          </div>
         </section>
-<!--опис-->
+<!--# опис-->
         <section class="section description-section">
         <div class="container">
             <h2 class="section__title">Чим ми займаємося</h2>
@@ -134,8 +134,8 @@
                                         ./images/descr_img2@1x.webp 1x,
                                         ./images/descr_img2@2x.webp 2x" type="image/webp" media="(min-width:1200px)" />
                         <source srcset="
-                                            ./images/descr_img2@1x.jpg 1x,
-                                            ./images/descr_img2@2x.jpg 2x" type="image/jpg" media="(min-width:1200px)" />
+                                        ./images/descr_img2@1x.jpg 1x,
+                                        ./images/descr_img2@2x.jpg 2x" type="image/jpg" media="(min-width:1200px)" />
                     <img class="description__img img" 
                     src="./images/descr_img2@1x.jpg" 
                     alt="Людина із мобільним у руках за комп'ютером" 
@@ -164,14 +164,34 @@
             </ul>
         </div>
     </section>
-<!--команда-->
+<!--# команда-->
     <section class="section section--gray">
         <div class="container">
             <h2 class="section__title">Наша команда</h2>
             <ul class="team list">
                 <li class="team__item">
                     <div class="team-card">
-                    <img class="team-card__img img" src="./images/img4.jpg" alt="Усміхнений хлопець в окулярах" width="270" height="260">  
+                        <picture>
+                            <source srcset="
+                                ./images/team1_mob@1x.webp 1x,
+                                ./images/team1_mob@2x.webp 2x" type="image/webp" media="(max-width:767px)" />
+                            <source srcset="
+                                ./images/team1_mob@1x.jpg 1x,
+                                ./images/team1_mob@1x.jpg 2x" type="image/jpg" media="(max-width:767px)" />
+                            <source srcset="
+                                ./images/team1_tab@1x.webp 1x,
+                                ./images/team1_tab@2x.webp 2x" type="image/webp" media="(min-width:768px)" />
+                            <source srcset="
+                                ./images/team1_tab@1x.jpg 1x,
+                                ./images/team1_tab@1x.jpg 2x" type="image/jpg" media="(min-width:768px)" />
+                            <source srcset="
+                                ./images/team1_desk@1x.webp 1x,
+                                ./images/team1_desk@2x.webp 2x" type="image/webp" media="(min-width:1200px)" />
+                            <source srcset="
+                                ./images/team1_desk@1x.jpg 1x,
+                                ./images/team1_desk@1x.jpg 2x" type="image/jpg" media="(min-width:1200px)" />
+                    <img class="team-card__img img" src="./imagege/team1_desk@1x.jpg" alt="Усміхнений хлопець в окулярах" width="270" height="260"> 
+                        </picture> 
                     <h3 class="team-card__title">Ігор Дем'яненко</h3>
                     <p class="team-card__text">Product Designer</p>
                     
@@ -209,7 +229,27 @@
                 </li>
                 <li class="team__item">
                     <div class="team-card">
-                    <img class="team-card__img img" src="./images/img5.jpg" alt="Усміхнена дічена в піджаку" width="270" height="260">  
+                        <picture>
+                            <source srcset="
+                                ./images/team2_mob@1x.webp 1x,
+                                ./images/team2_mob@2x.webp 2x" type="image/webp" media="(max-width:767px)" />
+                            <source srcset="
+                                ./images/team2_mob@1x.jpg 1x,
+                                ./images/team2_mob@1x.jpg 2x" type="image/jpg" media="(max-width:767px)" />
+                            <source srcset="
+                                ./images/team2_tab@1x.webp 1x,
+                                ./images/team2_tab@2x.webp 2x" type="image/webp" media="(min-width:768px)" />
+                            <source srcset="
+                                ./images/team2_tab@1x.jpg 1x,
+                                ./images/team2_tab@1x.jpg 2x" type="image/jpg" media="(min-width:768px)" />
+                            <source srcset="
+                                ./images/team2_desk@1x.webp 1x,
+                                ./images/team2_desk@2x.webp 2x" type="image/webp" media="(min-width:1200px)" />
+                            <source srcset="
+                                ./images/team2_desk@1x.jpg 1x,
+                                ./images/team2_desk@1x.jpg 2x" type="image/jpg" media="(min-width:1200px)" />
+                    <img class="team-card__img img" src="./images/team2_desk@1x.jpg" alt="Усміхнена дічена в піджаку" width="270" height="260">  
+                        </picture>
                     <h3 class="team-card__title">Ольга Рєпіна</h3>
                     <p class="team-card__text">Frontend Developer</p>
                     <ul class="social-box list">
@@ -246,7 +286,27 @@
                 </li>
                 <li class="team__item">
                     <div class="team-card">
-                    <img class="team-card__img img" src="./images/img6.jpg" alt="Усміхнений хлопець в білій сорочці" width="270" height="260"> 
+                        <picture>
+                            <source srcset="
+                            ./images/team3_mob@1x.webp 1x,
+                            ./images/team3_mob@2x.webp 2x" type="image/webp" media="(max-width:767px)" />
+                            <source srcset="
+                            ./images/team3_mob@1x.jpg 1x,
+                            ./images/team3_mob@1x.jpg 2x" type="image/jpg" media="(max-width:767px)" />
+                            <source srcset="
+                            ./images/team3_tab@1x.webp 1x,
+                            ./images/team3_tab@2x.webp 2x" type="image/webp" media="(min-width:768px)" />
+                            <source srcset="
+                            ./images/team3_tab@1x.jpg 1x,
+                            ./images/team3_tab@1x.jpg 2x" type="image/jpg" media="(min-width:768px)" />
+                            <source srcset="
+                            ./images/team3_desk@1x.webp 1x,
+                            ./images/team3_desk@2x.webp 2x" type="image/webp" media="(min-width:1200px)" />
+                            <source srcset="
+                            ./images/team3_desk@1x.jpg 1x,
+                            ./images/team3_desk@1x.jpg 2x" type="image/jpg" media="(min-width:1200px)" />
+                    <img class="team-card__img img" src="./images/team3_desk@1x.jpg" alt="Усміхнений хлопець в білій сорочці" width="270" height="260"> 
+                        </picture>
                     <h3 class="team-card__title">Микола Тарасов</h3>
                     <p class="team-card__text">Marketing</p>
                     <ul class="social-box list">
@@ -283,7 +343,27 @@
                 </li>
                 <li class="team__item">
                     <div class="team-card">
-                    <img class="team-card__img img" src="./images/img7.jpg" alt="Хлопець в окулярах дивиться на камеру" width="270" height="260"> 
+                        <picture>
+                            <source srcset="
+                                ./images/team4_mob@1x.webp 1x,
+                                ./images/team4_mob@2x.webp 2x" type="image/webp" media="(max-width:767px)" />
+                            <source srcset="
+                                ./images/team4_mob@1x.jpg 1x,
+                                ./images/team4_mob@1x.jpg 2x" type="image/jpg" media="(max-width:767px)" />
+                            <source srcset="
+                                ./images/team4_tab@1x.webp 1x,
+                                ./images/team4_tab@2x.webp 2x" type="image/webp" media="(min-width:768px)" />
+                            <source srcset="
+                                ./images/team4_tab@1x.jpg 1x,
+                                ./images/team4_tab@1x.jpg 2x" type="image/jpg" media="(min-width:768px)" />
+                            <source srcset="
+                                ./images/team4_desk@1x.webp 1x,
+                                ./images/team4_desk@2x.webp 2x" type="image/webp" media="(min-width:1200px)" />
+                            <source srcset="
+                                ./images/team4_desk@1x.jpg 1x,
+                                ./images/team4_desk@1x.jpg 2x" type="image/jpg" media="(min-width:1200px)" />
+                    <img class="team-card__img img" src="./images/team4_desk@1x.jpg" alt="Хлопець в окулярах дивиться на камеру" width="270" height="260"> 
+                        </picture>
                     <h3 class="team-card__title">Михайло Єрмаков</h3>
                     <p class="team-card__text">UI Designer</p>
                     <ul class="social-box list">
@@ -322,7 +402,7 @@
         </div>
     </section>
 
-<!-- Постійні клієнти-->
+<!--# постійні клієнти-->
     
     <section class="section">
      <div class="container">
@@ -374,7 +454,7 @@
      </div>
    </section>
 </main>
-    <!--футер-->
+    <!--# футер-->
 <footer>
      <div class="container container--footer">
             <div class="address-box">
@@ -445,7 +525,7 @@
     
 </footer>
 
-<!--мобільне меню-->
+<!--# мобільне меню-->
 
 <div class="mobile-menu js-menu-container">
     
@@ -477,7 +557,7 @@
     
 </div>
 
-
+<!--# модальне вікно -->
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
         <div class="modal__container">
