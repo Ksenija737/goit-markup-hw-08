@@ -237,6 +237,11 @@ p {
     width: 450px;
   }
 }
+@media (min-width: 1200px) {
+  .modal__container {
+    width: 528px;
+  }
+}
 .backdrop.is-hidden .modal__container {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
@@ -1259,6 +1264,7 @@ footer {
           align-items: baseline;
 }
 .checkbox__label {
+  position: relative;
   padding-left: 24px;
   font-size: 12px;
   line-height: 1.16;
@@ -1286,6 +1292,11 @@ footer {
   -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media (min-width: 1200px) {
+  .checkbox__icon {
+    margin: 4px 8px 0 0;
+  }
+}
 .checkbox__input:checked + .checkbox__icon {
   fill: var(--white-color);
   background-color: var(--accent-color);
@@ -1299,9 +1310,9 @@ footer {
 .checkbox__submit {
   margin-top: 15px;
 }
-@media (max-width: 494px) {
+@media (min-width: 1200px) {
   .checkbox__submit {
-    margin-top: 15px;
+    margin-top: 30px;
   }
 }
 
