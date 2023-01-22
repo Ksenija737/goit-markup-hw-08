@@ -13,7 +13,7 @@ transition: transform 500ms;
 display: flex;
 flex-wrap: wrap;
 flex-direction: column;
-justify-content: space-around;
+justify-content: space-between;
 
 &.is-open {
 transform: translateY(0);
@@ -80,7 +80,7 @@ transform: translateY(0);
 }
 
 .menu-socials {
-    margin-top: 64px;
+    
     list-style: none;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
