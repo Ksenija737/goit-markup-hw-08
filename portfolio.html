@@ -72,7 +72,12 @@
                     <li class="work">
                         <a class="work__link link" href="#">
                             <div class="work-thumb">
-                            <img class="work-thumb__img img" src="./images/img8.jpg" alt="Планшет, на моніторі якого сторінка веб-сайту із зображенням трьох людей" width="370" height="294">
+                                <picture>
+                                    <source srcset="
+                                                                ./images/1@1x.jpg 1x,
+                                                                ./images/1@2x.jpg 2x" type="image/jpg" media="(max-width:1200px)" />
+                            <img class="work-thumb__img img" src="./images/1@1x.jpg" alt="Планшет, на моніторі якого сторінка веб-сайту із зображенням трьох людей" width="370" height="294">
+                                </picture>
                             <p class="work-thumb__overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
                                 вичерпні відомості про компанію чи приватну особу.
                             </p>
@@ -86,7 +91,13 @@
                     <li class="work">
                         <a class="work__link link" href="#">
                             <div class="work-thumb">
-                            <img class="work-thumb__img img" src="./images/img9.jpg" alt="Два баскетболіста підстрибують з м'ячем" width="370" height="294">
+                                <picture>
+                                    <source srcset="
+                                                ./images/2@1x.jpg 1x,
+                                                ./images/2@2x.jpg 2x" type="image/jpg"
+                                        media="(max-width:1200px)" />
+                            <img class="work-thumb__img img" src="./images/2@1x.jpg" alt="Два баскетболіста підстрибують з м'ячем" width="370" height="294">
+                                </picture>
                             <p class="work-thumb__overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
                                 відвідувачу отримати
                                 вичерпні відомості про компанію чи приватну особу.
