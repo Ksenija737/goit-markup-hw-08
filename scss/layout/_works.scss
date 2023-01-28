@@ -16,7 +16,7 @@
     @media (min-width: 768px) {
         width: calc((100% - 30px) / 2);    
     }  
-      
+
      @media (min-width: 1200px) {
     justify-content: column;
      max-width: 370px;
@@ -57,7 +57,7 @@
     padding: 20px 24px;
     border: 1px solid var(--border-item-color);
     border-top: none;
-    flex-grow: 1;
+   // flex-grow: 1;
 
     &__title {
             margin-bottom: 4px;
